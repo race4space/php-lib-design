@@ -17,5 +17,7 @@
      "config": {
             "sort-packages": true
     },
-    "require": {}
+    "require": {
+      "race4space/php-lib-library": "^2.3"
+    }
 }
