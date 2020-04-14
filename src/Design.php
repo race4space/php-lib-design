@@ -1,5 +1,5 @@
 <?php
-namespace phpcrud;
+namespace phpdesign;
 $obj_auth=new \phplibrary\Auth();
 $obj_auth->fn_check();
 
@@ -19,6 +19,10 @@ class Design {
   function fn_initialize_var(){
     //define any values of variables without issue here.
     $this->fn_echo("Hey Jude");
+  }
+  function fn_execute(){
+    //define any values of variables without issue here.
+    $this->fn_echo("Dont bring me down");
   }
 }//END CLASS DESIGN
 ?>
